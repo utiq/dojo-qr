@@ -58,7 +58,7 @@ const InteractiveBox = ({
         );
         nd[zone] =
           zone === "mask-vaccinated"
-            ? nd["mask-unvaccinated"] * 0.91
+            ? nd["mask-unvaccinated"] * 0.09
             : tempResp.zone_results.conditional * 100;
       });
     });
